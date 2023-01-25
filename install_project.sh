@@ -1,0 +1,3 @@
+# THE FOLLOWING LINES DO THE JOB INSTALLING THE POETRY PROJECT
+echo 'Installing project'
+poetry install
