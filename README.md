@@ -42,5 +42,5 @@ Happy coding! ;)
 
 # Notes on Ubuntu installation
 
-* Make sure you have `curl` installed in your machine before running the first script. In case you don't have it, you can install using `sudo snap install curl`;
+* Make sure you have `curl` installed in your machine before running the first script. In case you don't have it, you can install using `sudo apt install curl`;
 * Make sure you have `git` installed in your machine before running the first script. Actually, in a Ubuntu machine you don't have to install Git Bash. Installing git only is enough. [Here is some guide on installing git on Ubuntu](https://github.com/git-guides/install-git#install-git-on-linux);
