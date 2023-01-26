@@ -34,10 +34,13 @@ Now you just need to install/create your poetry project:
 In case you are not happy with the software and decide to try something different, and it is necessary to uninstall poetry and pyenv, you can do the following:
 * To uninstall poetry, run in your terminal: ```curl -sSL  https://install.python-poetry.org | python - --uninstall```. You will need to remove `export PATH="$HOME/.local/bin:$PATH"` from your _.bashrc_ file also;
 * To uninstall pyenv, follow [the documentation steps for uninstalling](https://github.com/pyenv/pyenv-installer#uninstall). [In case you need to modify a text file using shell, open it using vi and, once modified, write and quit using `:wq`](https://stackoverflow.com/questions/35695160/how-to-edit-a-text-file-in-my-terminal). You can check if the text file was modified using `cat`.
+* [find out the recently installed packages](https://askubuntu.com/questions/17012/is-it-possible-to-get-a-list-of-most-recently-installed-packages);
+* [list all installed packages](https://askubuntu.com/questions/17823/how-to-list-all-installed-packages)
+* [how to uninstall packages installed in a certain time range](https://askubuntu.com/questions/548683/how-can-one-remove-all-packages-installed-after-a-certain-date-time)
 
 Happy coding! ;)
 
-# Notes for Ubuntu installation
+# Notes on Ubuntu installation
 
 * Make sure you have `curl` installed in your machine before running the first script. In case you don't have it, you can install using `sudo snap install curl`;
 * Make sure you have `git` installed in your machine before running the first script. Actually, in a Ubuntu machine you don't have to install Git Bash. Installing git only is enough. [Here is some guide on installing git on Ubuntu](https://github.com/git-guides/install-git#install-git-on-linux);
