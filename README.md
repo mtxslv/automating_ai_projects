@@ -45,3 +45,9 @@ Happy coding! ;)
 * Make sure you have `curl` installed in your machine before running the first script. In case you don't have it, you can install using `sudo apt install curl`;
 * Make sure you have `git` installed in your machine before running the first script. Actually, in a Ubuntu machine you don't have to install Git Bash. Installing git only is enough. [Here is some guide on installing git on Ubuntu](https://github.com/git-guides/install-git#install-git-on-linux);
 * Once pyenv is installed, it was necessary to install Tkinter in order to install Python using pyenv. Following [PaulMest answer to this StackOverFlow question](https://stackoverflow.com/questions/5459444/tkinter-python-may-not-be-configured-for-tk), you must run: `$ sudo apt-get install python-tk python3-tk tk-dev`.
+* Once pyenv is installed, it may be more comfortable to have pyenv to load automatically. At the end, it means it won't be [encher teu terminal de comando] everytime you open it. To do so, you must append the following lines to `~/.bash_profile` if it exists, or to `~/.profile`:
+```
+export PYENV_ROOT="$HOME/.pyenv" 
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)" 
+```
