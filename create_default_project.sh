@@ -5,10 +5,15 @@ echo 'Creating folder...'
 mkdir $FOLDER # create folder
 cd $FOLDER # go to folder
 # Initializing git, pyenv and poetry
-echo 'Initializing git, pyenv and poetry...'
+echo 'Initializing git...'
 git init
+echo 'Initializing pyenv...'
+echo 'Python 3.9.10 selected'
 pyenv local 3.9.10
+echo 'Initializing poetry...'
 poetry init -n
+poetry config virtualenvs.in-project true
+poetry env use 3.9.10
 # Creating package 
 echo 'Tell me the name of the poetry package' # ask name of the 'package'
 read PACKAGE # ask name of the 'package'
