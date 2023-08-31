@@ -7,3 +7,14 @@ touch domain/__init__.py domain/aggregates.py domain/entities.py domain/exceptio
 touch entrypoints/__init__.py
 touch ports/__init__.py ports/repositories.py ports/use_cases.py
 touch use_cases/__init__.py use_cases/exceptions.py
+
+cd ..
+
+mkdir -p tests
+cd tests
+mkdir -p domain entrypoints use_cases
+touch domain/__init__.py 
+touch entrypoints/__init__.py
+touch use_cases/__init__.py
+touch __init__.py
+touch conftest.py
